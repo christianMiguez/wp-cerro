@@ -1,0 +1,259 @@
+/*
+Theme Name: WP CERRO
+Theme URI: https://www.cacerro.com/
+Author: Club Atletico Cerrp
+Author URI: https://christianmiguez.github.io/
+Description: Tema para Cerro
+Version: 1.0
+Text Domain: futbol, cerro, uruguay
+*/
+
+body {
+	font-size: 16px;
+}
+.bg-primary {
+	background-color: #00aeef!important;
+}
+.gradient {	background: #56CCF2; background: -webkit-linear-gradient(to top, #2F80ED, #56CCF2); background: linear-gradient(to top, #2F80ED, #56CCF2);
+}
+.nav-link {
+	text-transform: uppercase !important;
+}
+.nav-link:hover {
+	background: #1ac1ff !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: white !important;
+}
+.text-primary {
+	color: #00aeef!important
+}
+.entry-content img {
+	margin: 0 0 1.5em 0;
+}
+.alignleft, img.alignleft {
+	margin-right: 1.5em; display: inline; float: left;
+}
+.alignright, img.alignright {
+	margin-left: 1.5em;	display: inline; float: right;
+}
+.aligncenter, img.aligncenter {
+	margin-right: auto;	margin-left: auto; display: block; clear: both;
+}
+.wp-caption {
+	margin-bottom: 1.5em; text-align: center; padding-top: 5px;
+}
+.wp-caption img {
+	border: 0 none;	padding: 0;	margin: 0;
+}
+.wp-caption p.wp-caption-text {
+	line-height: 1.5; font-size: 10px; margin: 0;
+}
+.wp-smiley {
+	margin: 0 !important; max-height: 1em;
+}
+blockquote.left {
+	margin-right: 20px; text-align: right; margin-left: 0; width: 33%; float: left;
+}
+blockquote.right {
+	margin-left: 20px; text-align: left; margin-right: 0; width: 33%; float: right;
+}
+.logo {
+	width: 180px; height: 213px; position: absolute; top: -5px; z-index: 5;
+}
+.top-space {
+	margin-left: 250px;	height: 150px;
+}
+.container-toped {
+	max-width: 1400px !important;
+}
+
+.index-slider .card, .index-slider .card-img {
+	border-radius: 0px !important;
+}
+.card {
+	border: none
+}
+.linkfeat{
+	background: rgb(0,174,239);
+	background: -moz-linear-gradient(0deg, rgba(0,174,239) 0%, rgba(0,174,239,0) 33%);
+	background: -webkit-linear-gradient(0deg, rgba(0,174,239) 0%, rgba(0,174,239,0) 33%);
+	background: linear-gradient(0deg, rgba(0,174,239) 0%, rgba(0,174,239,0) 33%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00aeef",endColorstr="#00aeef",GradientType=1);
+}
+.clip-circle {
+    clip-path: circle(127px at 127px 129px);
+}
+
+.slick-slide { 
+	margin: 0 10px;
+}
+
+.slick-list { 
+	margin: 0 -10px;
+}
+.slick-prev:before {
+	color: #00aeef!important;
+}
+.slick-next:before {
+	color: #00aeef!important;
+}
+.no-bg {
+	position: relative; overflow: hidden;
+}
+.no-bg span {
+	display: inline-block; vertical-align: baseline;zoom: 1;display: inline;vertical-align: auto;position: relative;padding: 0 20px;
+}
+.no-bg span:before,
+.no-bg span:after { 
+	content: ""; display: block; width: 1000px; position: absolute; top: 0.73em; border-top: 1px solid #b0eaff;
+}
+.no-bg span:before {
+	right: 100%;
+}
+.no-bg span:after {
+	left: 100%;
+}
+.hvr-pulse-grow {
+	height: 213px;
+	width: 180px;
+	display: inline-block;
+	vertical-align: middle;
+	box-shadow: 0 0 1px transparent;
+	-webkit-animation-name: hvr-pulse-grow-out;
+	animation-name: hvr-pulse-grow-out;
+	-webkit-animation-duration: 0.4s;
+	animation-duration: 0.4s;
+  }
+  
+  .hvr-pulse-grow:hover {
+	animation-iteration-count: infinite;
+	transform: scale(1);
+	-webkit-animation-name: hvr-pulse-grow-in;
+	animation-name: hvr-pulse-grow-in;
+	-webkit-animation-duration: 0.4s;
+	animation-duration: 0.4s;
+	  -webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	animation-direction: alternate;
+  }
+  
+  @keyframes hvr-pulse-grow-in {
+	  from   { -webkit-transform: scale(1); }
+	  to { -webkit-transform: scale(1.1);}
+  }
+  
+  @keyframes hvr-pulse-grow-out {
+	  from   { -webkit-transform: scale(1.1); }
+	  to { -webkit-transform: scale(1);}
+}
+
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+}
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+}
+
+.card-img-top {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2857em;
+}
+
+h3.card-title {
+	font-size: 1rem;
+}
+
+.card-text {
+    clear: both;
+    margin-top: .5em;
+    color: rgba(0, 0, 0, .68);
+}
+
+.card-footer {
+    font-size: 1em;
+    position: static;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    padding: .75em 1em;
+    color: rgba(0, 0, 0, .4);
+    border-top: 1px solid rgba(0, 0, 0, .05) !important;
+    background: #fff;
+}
+
+.card-inverse .btn {
+    border: 1px solid rgba(0, 0, 0, .05);
+}
+
+.profile {
+    position: absolute;
+    top: -12px;
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.profile-avatar {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.profile-inline {
+    position: relative;
+    top: 0;
+    display: inline-block;
+}
+
+.profile-inline ~ .card-title {
+    display: inline-block;
+    margin-left: 4px;
+    vertical-align: top;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.meta {
+    font-size: 1em;
+    color: rgba(0, 0, 0, .4);
+}
+
+.meta a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .4);
+}
+
+.meta a:hover {
+    color: rgba(0, 0, 0, .87);
+}

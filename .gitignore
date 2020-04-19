@@ -21,3 +21,5 @@ node_modules/
 *.log
 *.sql
 *.sqlite
+cerro.ppk
+.vscode/sftp.json
